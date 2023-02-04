@@ -8,7 +8,10 @@ Simplify a ton of function calls with compact string, especially turtle movement
 
 ## How to get the library?
 
-TBA
+In ComputerCraft, run:
+```sh
+wget run https://raw.githubusercontent.com/ayangd/charlang/main/setup.lua
+```
 
 ## How to use it?
 
