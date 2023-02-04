@@ -13,6 +13,8 @@ In ComputerCraft, run:
 wget run https://raw.githubusercontent.com/ayangd/charlang/main/setup.lua
 ```
 
+It will put the library and lookup folder in the current directory you're in.
+
 ## How to use it?
 
 The `charlang.lua` file has some functions exported, as shown by the table below:
