@@ -40,10 +40,11 @@ local lookup = {
 local instruction = [=[
     [[ This is a comment, will be ignored by the interpreter    ]]
     [[ new line (\n), spaces and tabs (\t) will also be ignored ]]
-    aabb   [[ Prints "a" 2 times and "b" 2 times                ]]
-    2a2b   [[ Same as above                                     ]]
-    2(ab)  [[ Prints "a", "b", "a", "b"                         ]]
-    3(2ab) [[ Prints "a", "a", "b", repeated 3 times            ]]
+    aabb       [[ Prints "a" 2 times and "b" 2 times            ]]
+    2a2b       [[ Same as above                                 ]]
+    2(ab)      [[ Prints "a", "b", "a", "b"                     ]]
+    3(2ab)     [[ Prints "a", "a", "b", repeated 3 times        ]]
+    4(3a2(ab)) [[ Nested closures are also supported.           ]]
 ]=]
 
 charlang.run(instruction, lookup)
